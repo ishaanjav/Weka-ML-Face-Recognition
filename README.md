@@ -12,11 +12,11 @@ Features of this app include:
 _____
 ## Table of Contents
   - ### [Usage](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/README.md#usage-1)
-  - ### [How it Works](#How-it-Works)
-  - ### [Setup](#Setup) (Including getting the Microsoft Face API For Free)
-  - ### [Customizability and Improving the App](#Customizability-and-Improving-the-App)
+  - ### [How it Works](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/README.md#how-it-works-1)
+  - ### [Setup](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/README.md#setup) (Including getting the Microsoft Face API For Free)
+  - ### [Customizability and Improving the App](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/README.md#customizability-and-improving-the-app-1)
   - ### [Privacy / Security Concerns](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/README.md#privacy--security-concerns-1)
-  - ### [Other Repositories](#Other-Repositories)
+  - ### [Other Repositories](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/README.md#other-repositories-1)
 
 ### The [Wiki]() contains information on how Machine Learning classification algorithms and neural networks work. If you do not have prior knowledge or experience with ML, it is highly recommended that you check it out to [learn about machine learning]().
 _____
