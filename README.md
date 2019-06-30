@@ -12,11 +12,11 @@ Features of this app include:
 _____
 ## Table of Contents
   - ### [Usage](#Usage)
-  - ### [How it Works](#How it Works)
+  - ### [How it Works](#How-it-Works)
   - ### [Setup](#Setup) (Including getting the Microsoft Face API For Free)
-  - ### [Customizability and Improving the App](#Customizability and Improving the App)
-  - ### [Privacy / Security Concerns](#Privacy / Security Concerns)
-  - ### [Other Repositories](#Other Repositories)
+  - ### [Customizability and Improving the App](#Customizability-and-Improving-the-App)
+  - ### [Privacy / Security Concerns](#Privacy-/-Security-Concerns)
+  - ### [Other Repositories](#Other-Repositories)
 
 ### The [Wiki]() contains information on how Machine Learning classification algorithms and neural networks work. If you do not have prior knowledge or experience with ML, it is highly recommended that you check it out to [learn about machine learning]().
 _____
