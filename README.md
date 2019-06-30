@@ -8,7 +8,7 @@ Features of this app include:
  - **Identifying users** when given their image.
  - **Displaying facial data** being stored on device.
 
-###### Please note that the app may not be 100% accurate for large numbers of users. Basic logic is used to determine the closest match from the algorithms' classifications and confidences. For improved accuracy, go ahead and make your own tweaks to the function called ["bestMatch()" on Line 421](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/app/src/main/java/com/example/anany/javawekamlfacerecognition/MainActivity.java#L421).
+###### Please note that the app may not be 100% accurate for large numbers of users. Basic logic is used to determine the closest match from the algorithms' classifications and confidences. For improved accuracy, go ahead and make your own tweaks to the function called ["bestMatch()"](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/app/src/main/java/com/example/anany/javawekamlfacerecognition/MainActivity.java#L421).
 
 <img align="center" src="https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/Home%20Screen%20Image.png" width="30%"> <img align="center" src="https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/User%20Identified%20Image.png" width="30%"> <img align="center" src="https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/Extra%20Statistics%20Image.png" width="30%">
 _____
