@@ -11,12 +11,12 @@ Features of this app include:
 ###### Please note that the app may not be 100% accurate for very large numbers of users. Basic logic is in place to determine the closest match from what the algorithms have classified and their confidences. For improved accuracy, go ahead and make your own tweaks to the function called ["bestMatch()" on Line 421](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/app/src/main/java/com/example/anany/javawekamlfacerecognition/MainActivity.java#L421).
 _____
 ## Table of Contents
-  - ### [Usage]()
-  - ### [How it Works]()
-  - ### [Setup]() (Including getting the Microsoft Face API For Free)
-  - ### [Customizability and Improving the App]()
-  - ### [Privacy / Security Concerns]()
-  - ### [Other Repositories]()
+  - ### [Usage](#Usage)
+  - ### [How it Works](#How it Works)
+  - ### [Setup](#Setup) (Including getting the Microsoft Face API For Free)
+  - ### [Customizability and Improving the App](#Customizability and Improving the App)
+  - ### [Privacy / Security Concerns](#Privacy / Security Concerns)
+  - ### [Other Repositories](#Other Repositories)
 
 ### The [Wiki]() contains information on how Machine Learning classification algorithms and neural networks work. If you do not have prior knowledge or experience with ML, it is highly recommended that you check it out to [learn about machine learning]().
 _____
