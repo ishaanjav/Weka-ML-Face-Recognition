@@ -84,6 +84,27 @@ where `<LOCATION>` should be replaced with something like `uksouth.api.cognitive
 _____
 ## Customizability and Improving the App
 
+### bestMatch() Function: 
+As mentioned earlier, basic logic is used to find the best match of a user's face using the algorithms' classifications and their confidences. You can go ahead and improve the logic by changing the function [**"bestMatch()" on Line 421**](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/app/src/main/java/com/example/anany/javawekamlfacerecognition/MainActivity.java#L421) by using extra conditional statements. 
+I have found the following general patterns *(which may not always apply)*:
+   - Decision Tree Confidence is almost always 0% or 100%.
+   - The KNN Algorithm and Neural Network are most often correct.
+   - When both the KNN and Neural Network have high confidences, their classifications are most likely accurate.
+
+**You can use these observations to add if statements to check how confident the KNN and NN are and then prioritize their classifications, and so on.**
+
+### Additional Facial Features:
+The accuracy can be improved by adding better, more unique facial features. **One excellent example of this is [gender which you can get with the Microsoft Face API](https://github.com/ishaanjav/Face_Analyzer/blob/master/README.md#detecting-particular-facial-attributes)**. 
+
+Because gender is binary, it will make it even easier for the algorithms to recognize a face because if an instance of data is of the opposite gender of what is being recognized, then obviously that cannot be a possible candidate.
+
+**Attributes Worth Exploring:**
+   - Gender
+   - Hair Color
+   - Size of face
+
+**To learn how to get these attributes from the Face API, check out [this link](https://github.com/ishaanjav/Face_Analyzer/blob/master/README.md#detecting-particular-facial-attributes) where I have explained how to detect particular facial attributes.**
+
 _____
 ## Privacy / Security Concerns
 **Regarding Privacy Concerns:** The app was designed so that the **facial data is stored on the device** and not in Firebase or anywhere else. Therefore, **only the user of the device can see the facial data**.
@@ -92,5 +113,12 @@ Even so, the facial data is **not at all uniquely identifiable** and the **image
 
 _____
 ## Other Repositories
+If you liked this, I have some other great repositories that make use of APIs like the [Microsoft Face API](https://azure.microsoft.com/en-us/services/cognitive-services/face/), [Kairos API](https://www.kairos.com/docs/), [Google Maps SDK](https://developers.google.com/maps/documentation/android-sdk/intro) and more. 
+
+**My most popular repository is the [Kairos Face Recognition](https://github.com/ishaanjav/Kairos_Face_Recognition) which I highly recommend. *(It is the easiest method of implementing facial recognition by far)***. Below is a list of some of my repositories:
+
+- [**Kairos Face Recognition**](https://github.com/ishaanjav/Kairos_Face_Recognition): The purpose of this Android app is to use Kairos's SDK for Android in order to implement facial recognition. Features of this app include: registering and identifying users when given an image. [README](https://github.com/ishaanjav/Kairos_Face_Recognition/blob/master/README.md)
+
+- [**Face Analyzer**](https://github.com/ishaanjav/Face_Analyzer): The purpose of this Android app is to utilize the Microsoft Face API to not only detect individual faces in an image, but also for each face provide information such as emotions, the estimated age, gender, and more. [README](https://github.com/ishaanjav/Face_Analyzer/blob/master/README.md)
 
 
