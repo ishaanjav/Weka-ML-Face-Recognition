@@ -11,7 +11,7 @@ Features of this app include:
 ###### Please note that the app may not be 100% accurate for very large numbers of users. Basic logic is in place to determine the closest match from what the algorithms have classified and their confidences. For improved accuracy, go ahead and make your own tweaks to the function called ["bestMatch()" on Line 421](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/app/src/main/java/com/example/anany/javawekamlfacerecognition/MainActivity.java#L421).
 _____
 ## Table of Contents
-  - ### [Usage](#Usage)
+  - ### [Usage](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/README.md#usage-1)
   - ### [How it Works](#How-it-Works)
   - ### [Setup](#Setup) (Including getting the Microsoft Face API For Free)
   - ### [Customizability and Improving the App](#Customizability-and-Improving-the-App)
