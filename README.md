@@ -16,6 +16,7 @@ _____
   - ### [Setup]() (Including getting the Microsoft Face API For Free)
   - ### [Customizability and Improving the App]()
   - ### [Privacy / Security Concerns]()
+  - ### [Other Repositories]()
 
 ### The [Wiki]() contains information on how Machine Learning classification algorithms and neural networks work. If you do not have prior knowledge or experience with ML, it is highly recommended that you check it out to [learn about machine learning]().
 _____
@@ -78,9 +79,18 @@ replace `<YOUR API KEY>` with one of your 2 keys from the Azure Portal. *(If you
   
 where `<LOCATION>` should be replaced with something like `uksouth.api.cognitive.microsoft.com` or `japaneast.api.cognitive.microsoft.com`. All of these can be found, listed at [this link](https://westus.dev.cognitive.microsoft.com/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f30395236).
 
-## Setup is complete!
+### Setup is complete!
 *Please note that if you are using the free, standard plan, you can only make 20 API transactions/calls per minute. Therefore, if that limit is exceeded, you may run into runtime errors.*
 _____
 ## Customizability and Improving the App
+
+_____
+## Privacy / Security Concerns
+**Regarding Privacy Concerns:** The app was designed so that the **facial data is stored on the device** and not in Firebase or anywhere else. Therefore, **only the user of the device can see the facial data**.
+
+Even so, the facial data is **not at all uniquely identifiable** and the **images are not stored anywhere**.
+
+_____
+## Other Repositories
 
 
