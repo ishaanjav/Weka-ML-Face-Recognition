@@ -586,7 +586,7 @@ public class MainActivity extends AppCompatActivity {
             protected void onPostExecute(Face[] faces) {
                 pd.dismiss();
                 if (faces == null || faces.length == 0) {
-                    displayMessage("No face detected HERE. Please retake the picture.");
+                    displayMessage("No face detected. Please retake the picture.");
                     Log.d("HERE------------------", "No faces detected. Please retake picture");
                     //longToast("Hi");
                 } else {
