@@ -33,6 +33,7 @@ _____
    - Click the **"Read Data"** button for an `AlertDialog` displaying the facial data from internal storage.
    - After recognizing a face, press **"Extra Stats"** to see statistics about the algorithms' and neural network's performance.
 
+**Now to use the app, head on over to [Setup](#Setup)**
 _____
 
 ## How it Works:
