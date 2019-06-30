@@ -23,7 +23,7 @@ _____
 
 ### The [Wiki]() contains information on how Machine Learning classification algorithms and neural networks work. If you do not have prior knowledge or experience with ML, it is highly recommended that you check it out to [learn about machine learning]().
 _____
-<img align="right" src="https://github.com/ishaanjav/Face_Analyzer/blob/master/Face%20Analyzer%20Demo.gif" width="250" />
+<img align="right" src="https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/Using%20the%20App%20Gif.gif" width="250" />
 
 ## Usage:
 
