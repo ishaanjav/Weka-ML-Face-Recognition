@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#bad7f9">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#d0004d"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/bar"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_below="@id/name"
+            android:layout_marginTop="4dp"
+            android:background="#58b0fd"></RelativeLayout>
+        <TextView
+            android:id="@+id/readings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="7sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginTop="7sp"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/readings"
+            android:layout_marginTop="10sp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/uglyStats"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:layout_weight="7"
+                app:cardCornerRadius="7dp">
+
+                <Button
+                    android:id="@+id/ugly"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="#ffffff"
+                    android:text="Extra Stats"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="#1668c6"
+                    android:textSize="22sp"
+                    />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/dot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:layout_weight="10"
+                app:cardCornerRadius="7dp">
+
+                <Button
+                    android:id="@+id/done"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="#1668c6"
+                    android:text="Exit"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:textSize="22sp" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>
