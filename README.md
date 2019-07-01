@@ -21,7 +21,7 @@ _____
   - ### [Privacy / Security Concerns](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/README.md#privacy--security-concerns-1)
   - ### [Other Repositories](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/README.md#other-repositories-1)
 
-### The [Wiki]() contains information on how Machine Learning classification algorithms and neural networks work. If you do not have prior knowledge or experience with ML, it is highly recommended that you check it out to [learn about machine learning]().
+### The [Wiki](https://github.com/ishaanjav/Weka-ML-Face-Recognition/wiki) contains information on how Machine Learning classification algorithms and neural networks work. If you do not have prior knowledge or experience with ML, it is highly recommended that you check it out to [learn about machine learning](https://github.com/ishaanjav/Weka-ML-Face-Recognition/wiki).
 _____
 <img align="right" src="https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/Using%20the%20App%20Gif.gif" width="250" />
 
