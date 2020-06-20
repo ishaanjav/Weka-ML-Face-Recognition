@@ -18,7 +18,8 @@ _____
   - ### [How it Works](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/README.md#how-it-works-1)
   - ### [Setup](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/README.md#setup) (Including getting the Microsoft Face API For Free)
   - ### [Customizability and Improving the App](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/README.md#customizability-and-improving-the-app-1)
-  - ### [Data Privacy](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/README.md#data--privacy-1)
+  - ### [IJ Apps - Free, Android YouTube Tutorials](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/README.md#ij-apps-youtube-channel)
+  - ### [Data Privacy](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/README.md#data-privacy-1)
   - ### [Other Repositories](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/README.md#other-repositories-1)
 
 ### The [Wiki](https://github.com/ishaanjav/Weka-ML-Face-Recognition/wiki) contains information on how Machine Learning classification algorithms and neural networks work. If you do not have prior knowledge or experience with ML, it is highly recommended that you check it out to [learn about machine learning](https://github.com/ishaanjav/Weka-ML-Face-Recognition/wiki).
