@@ -18,7 +18,7 @@ _____
   - ### [How it Works](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/README.md#how-it-works-1)
   - ### [Setup](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/README.md#setup) (Including getting the Microsoft Face API For Free)
   - ### [Customizability and Improving the App](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/README.md#customizability-and-improving-the-app-1)
-  - ### [Privacy / Security Concerns](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/README.md#privacy--security-concerns-1)
+  - ### [Data Privacy](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/README.md#data--privacy-1)
   - ### [Other Repositories](https://github.com/ishaanjav/Weka-ML-Face-Recognition/blob/master/README.md#other-repositories-1)
 
 ### The [Wiki](https://github.com/ishaanjav/Weka-ML-Face-Recognition/wiki) contains information on how Machine Learning classification algorithms and neural networks work. If you do not have prior knowledge or experience with ML, it is highly recommended that you check it out to [learn about machine learning](https://github.com/ishaanjav/Weka-ML-Face-Recognition/wiki).
@@ -112,16 +112,24 @@ Because gender is binary, it will make it even easier for the algorithms to reco
 **To learn how to get these attributes from the Face API, check out [this link](https://github.com/ishaanjav/Face_Analyzer/blob/master/README.md#detecting-particular-facial-attributes) where I have explained how to detect particular facial attributes.**
 
 _____
-## Privacy / Security Concerns
+## [IJ Apps YouTube Channel](https://www.youtube.com/channel/UCLQUpH7SdkAXAeK6jeeF8zg)
+I created the [**IJ Apps YouTube Channel**](https://www.youtube.com/channel/UCLQUpH7SdkAXAeK6jeeF8zg) to provide free lessons on Android app development, that way you can learn to make your own apps.
+
+The code and content covered in the tutorials is up on the IJ Apps GitHub page that way you can use it if you ever get stuck.
+
+Whether you are a beginner or experienced, you can always learn from the 50+ lessons and counting (as of June 20th) that IJ Apps offers. ***So, make sure to check out the YouTube Channel and don't forget to subscribe!***
+
+_____
+## Data Privacy
 **Regarding Privacy Concerns:** The app was designed so that the **facial data is stored on the device** and not in Firebase or anywhere else. Therefore, **only the user of the device can see the facial data**.
 
-Even so, the facial data is **not at all uniquely identifiable** and the **images are not stored anywhere**.
+Even so, the facial data is **not at all uniquely identifiable** and the **images are not stored anywhere**, just random numbers about facial attributes.
 
 _____
 ## Other Repositories
 If you liked this, I have some other great repositories that make use of APIs like the [Microsoft Face API](https://azure.microsoft.com/en-us/services/cognitive-services/face/), [Kairos API](https://www.kairos.com/docs/), [Google Maps SDK](https://developers.google.com/maps/documentation/android-sdk/intro) and more. 
 
-**My most popular repository is the [Kairos Face Recognition](https://github.com/ishaanjav/Kairos_Face_Recognition) which I highly recommend. *(It is the easiest method of implementing facial recognition by far)***. Below is a list of some of my repositories:
+**One of my most popular repositories is the [Kairos Face Recognition](https://github.com/ishaanjav/Kairos_Face_Recognition) which I highly recommend. *(It is the easiest method of implementing facial recognition by far)***. Below is a list of some of my repositories:
 
 - [**Kairos Face Recognition**](https://github.com/ishaanjav/Kairos_Face_Recognition): The purpose of this Android app is to use Kairos's SDK for Android in order to implement facial recognition. Features of this app include: registering and identifying users when given an image. [**README**](https://github.com/ishaanjav/Kairos_Face_Recognition/blob/master/README.md)
 
